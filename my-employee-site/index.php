@@ -76,7 +76,12 @@ tr:nth-child(even) {
     </div>
   </div>
     
-  <div id="footer"><a href="http://www.bryantsmith.com">web design florida</a></div>
+  <div id="footer">
+  <?php
+		$ip = gethostname();
+		echo "IP Address is: $ip", "<br>";
+		?>
+  </div>
 </div>
 </body>
 </html>
